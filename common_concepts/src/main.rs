@@ -42,13 +42,14 @@ fn control_flow_example(example: control_flow::Examples){
 
 
 fn main() {
-    variables_example(variables::Examples::Shadowing);
-    data_types_example(data_types::Examples::TupleType);
-    functions_example(functions::Examples::TypedParamaters);
-    control_flow_example(control_flow::Examples::For_Range);
-    //Fibonacci sequence to 13th item
-    for num in (0..13){
-        println!("{}", fibonacci_example::fib_job(num));
-    }
+    // variables_example(variables::Examples::Shadowing);
+    // data_types_example(data_types::Examples::TupleType);
+    // functions_example(functions::Examples::TypedParamaters);
+    // control_flow_example(control_flow::Examples::For_Range);
+    // //Fibonacci sequence to 13th item
+    // for num in (0..13){
+    //     println!("{}", fibonacci_example::fib_job(num));
+    // }
+    println!("Uncomment code examples")
 
 }
